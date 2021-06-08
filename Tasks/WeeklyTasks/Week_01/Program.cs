@@ -9,6 +9,7 @@ namespace Week_01
             Task_01();
             Task_02();
             Task_03();
+            Task_04();
         }
 
         static void Task_01()
@@ -35,11 +36,27 @@ namespace Week_01
 
         static void Task_03()
         {
+            Console.Write("Üç herf daxil edin: ");
+            string line = Console.ReadLine();
+            line = line.Replace(" ", ""); // Herfler arasinda bosluq qoyulma ehtimalini nezere almaq ucun bosluqlari silirik
+            line = line.Replace(",", ""); // Herfler arasinda vergul qoyulma ehtimalini nezere almaq ucun vergulleri silirik
+            char[] chars = line.ToCharArray();
+            char[] rChars = new char[chars.Length];
+            for (int i = 0; i < chars.Length; i++)
+            {
+                rChars[i] = chars[chars.Length - 1 - i];
+            }
+            Console.WriteLine("Verilmiş herflerin ters sıra ile yazılışı :");
+            Console.WriteLine(string.Join(", ", rChars));
+        }
+
+        static void Task_04()
+        {
             Console.Write("Adınızı daxil edin: ");
             string firtName = Console.ReadLine();
             Console.Write("Soyadınızı daxil edin: ");
             string lastName = Console.ReadLine();
-            Console.WriteLine($"Salamlar {firtName} !");
+            Console.WriteLine($"Salamlar {firtName}!");
         }
     }
 }
