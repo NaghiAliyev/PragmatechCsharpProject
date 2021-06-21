@@ -1,0 +1,16 @@
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task04\Task04\bin\Debug\net5.0\Task04.exe
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task04\Task04\bin\Debug\net5.0\Task04.deps.json
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task04\Task04\bin\Debug\net5.0\Task04.runtimeconfig.json
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task04\Task04\bin\Debug\net5.0\Task04.runtimeconfig.dev.json
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task04\Task04\bin\Debug\net5.0\Task04.dll
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task04\Task04\bin\Debug\net5.0\ref\Task04.dll
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task04\Task04\bin\Debug\net5.0\Task04.pdb
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task04\Task04\obj\Debug\net5.0\Task04.csproj.AssemblyReference.cache
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task04\Task04\obj\Debug\net5.0\Task04.GeneratedMSBuildEditorConfig.editorconfig
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task04\Task04\obj\Debug\net5.0\Task04.AssemblyInfoInputs.cache
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task04\Task04\obj\Debug\net5.0\Task04.AssemblyInfo.cs
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task04\Task04\obj\Debug\net5.0\Task04.csproj.CoreCompileInputs.cache
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task04\Task04\obj\Debug\net5.0\Task04.dll
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task04\Task04\obj\Debug\net5.0\ref\Task04.dll
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task04\Task04\obj\Debug\net5.0\Task04.pdb
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task04\Task04\obj\Debug\net5.0\Task04.genruntimeconfig.cache
