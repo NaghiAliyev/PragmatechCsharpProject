@@ -1,0 +1,15 @@
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task07\Task07\bin\Debug\net5.0\Task07.exe
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task07\Task07\bin\Debug\net5.0\Task07.deps.json
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task07\Task07\bin\Debug\net5.0\Task07.runtimeconfig.json
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task07\Task07\bin\Debug\net5.0\Task07.runtimeconfig.dev.json
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task07\Task07\bin\Debug\net5.0\Task07.dll
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task07\Task07\bin\Debug\net5.0\ref\Task07.dll
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task07\Task07\bin\Debug\net5.0\Task07.pdb
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task07\Task07\obj\Debug\net5.0\Task07.GeneratedMSBuildEditorConfig.editorconfig
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task07\Task07\obj\Debug\net5.0\Task07.AssemblyInfoInputs.cache
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task07\Task07\obj\Debug\net5.0\Task07.AssemblyInfo.cs
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task07\Task07\obj\Debug\net5.0\Task07.csproj.CoreCompileInputs.cache
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task07\Task07\obj\Debug\net5.0\Task07.dll
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task07\Task07\obj\Debug\net5.0\ref\Task07.dll
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task07\Task07\obj\Debug\net5.0\Task07.pdb
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week03\Task07\Task07\obj\Debug\net5.0\Task07.genruntimeconfig.cache
