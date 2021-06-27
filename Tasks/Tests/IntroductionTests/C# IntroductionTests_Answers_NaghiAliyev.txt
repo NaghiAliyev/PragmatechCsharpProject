@@ -1,0 +1,323 @@
+C# Introduction Tests.
+
+1) Which of the following methods is an entry point in the C# console program?
+A) public static void Program()
+B) public static void Main() +
+C) public static void main()
+D) None of the above
+
+2) Which of the followings are value type in C#?
+A) Int32
+B) Double
+C) Decimal
+D) All of the above +
+
+3) Which of the following is a reference type in C#?
+A) String
+B) Long
+C) Boolean
+D) None of the above +
+
+4) What is the nullable type in C#?
+A) It allows assignment of null to reference type.
+B) It allows assignment of null to value type.
+C) It allows assignment of null to static class.
+D) None of the above.
+
+5) Struct is ____.
+A) Reference type
+B) Value type +
+C) Class type
+D) String type
+
+6) 10 > 9 ? "10 is greater than 9" : "9 is greater than 10" is an example of ______.
+A) Conditional operator
+B) Greater than operator
+C) Ternary operator +
+D) Inverse operator
+
+7) String is ____.
+A) Mutable
+B) Immutable +
+C) Static
+D) Value type
+
+8) All arrays start with ____ index.
+A) 1
+B) 0 +
+C) -1
+D) 0.0
+
+9) Which of the following is the correct way of declaring an array in C#?
+A) int[] intArray = new int[];
+B) int intArray[] = new int[5];
+C) int[] intArray = new int[5]; +
+D) int[5] intArray = new int[];
+
+10) Data type of a variable declared using var will be assigned at ____.
+A) Runtime
+B) Compile time +
+C) Any time
+D) Application Initialization time
+
+11) What will be the output of the following program?
+	public static void Main()
+	{
+		int i;
+		Console.WriteLine(i)
+	}
+
+A) Random value
+B) 0 +
+C) Runtime error
+D) Compile-time error
+
+12) What will be the output of the following code?
+	int i = 5,j;
+	Console.WriteLine(j=i*2);
+
+A) 0
+B) 10 +
+C) Runtime error
+D) Compile-time error
+
+13) Which of the following keyword is used to declare a variable whose type will be automatically determined by the compiler?
+A) dynamic 
+B) var +
+C) this
+D) null
+
+14) What will be the output of the following code?
+	var phone = "Iphone";
+	var name = "model" <- // ;
+	Console.WriteLine($"{phone}{name}");
+A) phone {name}
+B) Iphone model
+C) {Iphone}{model}
+D) compile-time error +
+
+15) What will be the output of the following program?
+	int i = 0;
+	
+	for(;;){
+		if(i<5)
+		Console.WriteLine(i) <- // ;
+		else
+		 break;
+		 i++;
+	}
+
+A) 01234
+B) 12345
+C) Infinite loop
+D) Compile-time error +
+
+16) Which of the following statement(s) are true?
+A) Array is a value type
+B) Array is a reference type +
+C) Array is a primitive type
+D) None of the above
+
+17) What will be the output of the following program?
+
+	struct Person
+	{
+		public int Id;
+	}
+	
+	public class Program
+	{
+		public static void Main()
+		{
+			Person per = new Person();
+			Console.WriteLine(per.Id);
+		}
+	}
+
+A) ""
+B) 0 +
+C) Compile-time error
+D) Runtime error
+
+18) What will be the output of the following program?
+
+	public static void Main()
+	{
+		var x;
+		x=100;
+		Console.WriteLine(x);
+	}
+	
+A) 100 +
+B) 0
+C) Compile-time error // +
+D) Runtime error
+
+19) Which of the following data type should be used for monetary value?
+A) Long
+B) Float
+C) Double
+D) Decimal +
+
+20) What will be the output of the following program? 
+	
+	public static void Main()
+	{
+		float f = 10.12f;
+		long l = 200L;
+		Console.WriteLine(f+l);
+	}
+A) 210
+B) 210.12 +
+C) Compile-time error
+D) Runtime error
+
+21) What will be the output of the following program?
+	
+	int i = 2;
+	Console.Write(++i); // 3
+	Console.Write(i++); // 3
+	Console.Write(i); // 4
+	
+A) 445
+B) 244
+C) 334 +
+D) 345
+
+22) What will be the output of the following program?
+
+		for (double i = 1.01d; i < 1.05; i+=0.01d)
+        {
+                Console.WriteLine(i);
+        }
+
+A) Compile-time error
+B) Runtime error
+C) 1.01,1.02,1.03,1.04 +
+D) 1,1,1,1
+
+23) What will be the output of the following program?
+
+	public static void Main()
+	{
+		workdays.Wednesday=5;
+		Console.WriteLine(workdays.WednesDay);
+	}
+	
+	enum workdays
+        {
+            Monday,
+            Tuesday,
+            Wednesday,
+            Thursday,
+            Friday
+        }
+
+A) 5
+B) WednesDay
+C) Compile-time error +		
+D) Runtime error
+
+24) What will be the output of the following program?
+
+	public static void Main()
+	{
+		Console.WriteLine((int)Color.Green);
+	}
+	
+	enum Color
+        {
+            Red,
+			Green=0,
+			Blue=0
+        }
+
+A) Green
+B) 0 +
+C) Compile-time error
+D) Runtime error
+
+25) Which of the following statement is correct about the struct? (Note: One or more rows can be correct)
+
+A) Structure is a value type +
+B) Memory of the structure is allocated on the heap
+C) Structure is useful to store large about of data
+D) Structure can include a constructor and methods +
+
+26) What will be the output of the following program?
+
+	public static void Main()
+	{
+		var i=10,j=2,k=3;
+		Console.WriteLine(k=i*j);
+	}
+
+A) 20
+B) 60
+C) 0
+D) Compile-time error +
+
+27)  What will be the output of the following program?
+	
+	Console.WriteLine(Convert.ToInt32('A'));
+	
+A) Compile-time error
+B) Runtime error
+C) 65 +
+D) Garbage value
+
+28) An enum cannot be declared inside a method.
+
+A) True
+B) False +
+
+29) What will be the output of the following program?
+	
+		struct Point
+        {
+            public int x;
+        }
+		
+	public static void Main()
+	{
+		Point p;
+		Console.WriteLine(p.x);
+	}
+
+A) 0
+B) 10
+C) Compile-time error +
+D) Runtime error
+
+30) What will be the output of the following program?
+
+	public class Program
+	{
+		public static void Main()
+		{
+			int i = 3;
+            int[] arr = new int[i] {10, 20, 30};
+            Console.WriteLine(arr[0]);
+		}
+	}
+
+A) 10
+B) 0
+C) Compile-time error +
+D) Runtime error
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
