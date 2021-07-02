@@ -13,13 +13,13 @@ C) Decimal
 D) All of the above +
 
 3) Which of the following is a reference type in C#?
-A) String
+A) String----+
 B) Long
 C) Boolean
 D) None of the above +
 
 4) What is the nullable type in C#?
-A) It allows assignment of null to reference type.
+A) It allows assignment of null to reference type.----+
 B) It allows assignment of null to value type.
 C) It allows assignment of null to static class.
 D) None of the above.
@@ -64,13 +64,13 @@ D) Application Initialization time
 	public static void Main()
 	{
 		int i;
-		Console.WriteLine(i)
+		Console.WriteLine(i)-----<- // ;
 	}
 
 A) Random value
 B) 0 +
 C) Runtime error
-D) Compile-time error
+D) Compile-time error ----+
 
 12) What will be the output of the following code?
 	int i = 5,j;

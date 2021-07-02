@@ -1,0 +1,16 @@
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\InClass\Week0402_02\Week0402_02\bin\Debug\net5.0\Week0402_02.exe
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\InClass\Week0402_02\Week0402_02\bin\Debug\net5.0\Week0402_02.deps.json
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\InClass\Week0402_02\Week0402_02\bin\Debug\net5.0\Week0402_02.runtimeconfig.json
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\InClass\Week0402_02\Week0402_02\bin\Debug\net5.0\Week0402_02.runtimeconfig.dev.json
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\InClass\Week0402_02\Week0402_02\bin\Debug\net5.0\Week0402_02.dll
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\InClass\Week0402_02\Week0402_02\bin\Debug\net5.0\ref\Week0402_02.dll
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\InClass\Week0402_02\Week0402_02\bin\Debug\net5.0\Week0402_02.pdb
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\InClass\Week0402_02\Week0402_02\obj\Debug\net5.0\Week0402_02.csproj.AssemblyReference.cache
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\InClass\Week0402_02\Week0402_02\obj\Debug\net5.0\Week0402_02.GeneratedMSBuildEditorConfig.editorconfig
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\InClass\Week0402_02\Week0402_02\obj\Debug\net5.0\Week0402_02.AssemblyInfoInputs.cache
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\InClass\Week0402_02\Week0402_02\obj\Debug\net5.0\Week0402_02.AssemblyInfo.cs
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\InClass\Week0402_02\Week0402_02\obj\Debug\net5.0\Week0402_02.csproj.CoreCompileInputs.cache
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\InClass\Week0402_02\Week0402_02\obj\Debug\net5.0\Week0402_02.dll
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\InClass\Week0402_02\Week0402_02\obj\Debug\net5.0\ref\Week0402_02.dll
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\InClass\Week0402_02\Week0402_02\obj\Debug\net5.0\Week0402_02.pdb
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\InClass\Week0402_02\Week0402_02\obj\Debug\net5.0\Week0402_02.genruntimeconfig.cache

@@ -32,7 +32,7 @@ namespace Week0402_Task01
                         int size = Convert.ToInt32(Console.ReadLine());
                         for (int i = 0; i < size; i++)
                         {
-                            Console.Write("Uzvun adini daxil edin: ");
+                            Console.Write($"{i}. uzvun adini daxil edin: ");
                             string member = Console.ReadLine();
                             members.Add(member);
                         }
@@ -47,7 +47,15 @@ namespace Week0402_Task01
                         }
                         Console.WriteLine("\nSilmek istediyiniz uzvun adini yazin: ");
                         string memberName = Console.ReadLine();
-                        members.Remove(memberName);
+                        if (members.Contains(memberName))
+                        {
+                            members.Remove(memberName);
+                            Console.WriteLine($"{memberName} sistemden ugurla silindi");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Sistemde bu uzv yoxdur");
+                        }
                         Console.ReadKey();
                         break;
                     case 3:
