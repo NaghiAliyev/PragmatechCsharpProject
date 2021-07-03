@@ -1,0 +1,10 @@
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Week0501_Calculator\Calculator\bin\Debug\Calculator.exe.config
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Week0501_Calculator\Calculator\bin\Debug\Calculator.exe
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Week0501_Calculator\Calculator\bin\Debug\Calculator.pdb
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Week0501_Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Week0501_Calculator\Calculator\obj\Debug\Calculator.Main.resources
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Week0501_Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Week0501_Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Week0501_Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Week0501_Calculator\Calculator\obj\Debug\Calculator.exe
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Week0501_Calculator\Calculator\obj\Debug\Calculator.pdb
