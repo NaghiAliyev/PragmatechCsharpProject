@@ -69,6 +69,7 @@ namespace Calculator
             this.nudNumber01.Name = "nudNumber01";
             this.nudNumber01.Size = new System.Drawing.Size(120, 27);
             this.nudNumber01.TabIndex = 2;
+            this.nudNumber01.ValueChanged += new System.EventHandler(this.nudNumber01_ValueChanged);
             // 
             // nudNumber02
             // 
@@ -76,6 +77,7 @@ namespace Calculator
             this.nudNumber02.Name = "nudNumber02";
             this.nudNumber02.Size = new System.Drawing.Size(120, 27);
             this.nudNumber02.TabIndex = 2;
+            this.nudNumber02.ValueChanged += new System.EventHandler(this.nudNumber02_ValueChanged);
             // 
             // cmbOperations
             // 
@@ -123,7 +125,7 @@ namespace Calculator
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculator";

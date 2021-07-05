@@ -16,7 +16,6 @@ namespace Calculator
         {
             InitializeComponent();
         }
-        string operation;
         int x;
         private void Main_Load(object sender, EventArgs e)
         {
@@ -37,41 +36,11 @@ namespace Calculator
             }
             else
             {
-                operation = cmbOperations.SelectedItem.ToString();
+                string operation = cmbOperations.SelectedItem.ToString();
                 int number01 = Convert.ToInt32(nudNumber01.Value);
                 int number02 = Convert.ToInt32(nudNumber02.Value);
-                switch (operation)
-                {
-                    case "+":
-                        lblResult.Text = (number01 + number02).ToString();
-                        break;
-                    case "-":
-                        lblResult.Text = (number01 - number02).ToString();
-                        break;
-                    case "*":
-                        lblResult.Text = (number01 * number02).ToString();
-                        break;
-                    case "%":
-                        lblResult.Text = (number01 % number02).ToString();
-                        break;
-                    case "/":
-                        if (number02 == 0)
-                        {
-                            MessageBox.Show("0-a bolmek olmaz!", "Xeta", MessageBoxButtons.OK);
-                            break;
-                        }
-                        else
-                        {
-                            lblResult.Text = ((double)number01 / number02).ToString();
-                        }
-                        break;
-                    default:
-                        MessageBox.Show("Gozlenilmez xeta bas verdi!", "Xeta", MessageBoxButtons.OK);
-                        break;
-                }
-                int locationX = x - lblResult.Size.Width;
-                int locationY = lblResult.Location.Y;
-                lblResult.Location = new Point(locationX, locationY);
+                writeResult(number01, number02, operation);
+               
             }
         }
 
@@ -82,6 +51,86 @@ namespace Calculator
             lblOperation.Location = new Point(locationX, locationY);
             lblOperation.Visible = true;
             lblOperation.Text = cmbOperations.SelectedItem.ToString();
+            string operation;
+            if (cmbOperations.SelectedItem != null)
+            {
+                operation = cmbOperations.SelectedItem.ToString();
+            }
+            else
+            {
+                operation = "";
+            }
+            int number01 = Convert.ToInt32(nudNumber01.Value);
+            int number02 = Convert.ToInt32(nudNumber02.Value);
+            writeResult(number01, number02, operation);
+        }
+
+        private void nudNumber01_ValueChanged(object sender, EventArgs e)
+        {
+            string operation;
+            if (cmbOperations.SelectedItem != null)
+            {
+                operation = cmbOperations.SelectedItem.ToString();
+            }
+            else
+            {
+                operation = "";
+            }
+            int number01 = Convert.ToInt32(nudNumber01.Value);
+            int number02 = Convert.ToInt32(nudNumber02.Value);
+            writeResult(number01, number02, operation);
+        }
+
+        private void writeResult(int number01, int number02, string operation)
+        {
+            switch (operation)
+            {
+                case "+":
+                    lblResult.Text = (number01 + number02).ToString();
+                    break;
+                case "-":
+                    lblResult.Text = (number01 - number02).ToString();
+                    break;
+                case "*":
+                    lblResult.Text = (number01 * number02).ToString();
+                    break;
+                case "%":
+                    lblResult.Text = (number01 % number02).ToString();
+                    break;
+                case "/":
+                    if (number02 == 0)
+                    {
+                        MessageBox.Show("0-a bolmek olmaz!", "Xeta", MessageBoxButtons.OK);
+                        break;
+                    }
+                    else
+                    {
+                        lblResult.Text = ((double)number01 / number02).ToString();
+                    }
+                    break;
+                default:
+                    MessageBox.Show("Gozlenilmez xeta bas verdi!", "Xeta", MessageBoxButtons.OK);
+                    break;
+            }
+            int locationX = x - lblResult.Size.Width;
+            int locationY = lblResult.Location.Y;
+            lblResult.Location = new Point(locationX, locationY);
+        }
+
+        private void nudNumber02_ValueChanged(object sender, EventArgs e)
+        {
+            string operation;
+            if (cmbOperations.SelectedItem != null)
+            {
+                operation = cmbOperations.SelectedItem.ToString();
+            }
+            else
+            {
+                operation = "";
+            }
+            int number01 = Convert.ToInt32(nudNumber01.Value);
+            int number02 = Convert.ToInt32(nudNumber02.Value);
+            writeResult(number01, number02, operation);
         }
     }
 }
