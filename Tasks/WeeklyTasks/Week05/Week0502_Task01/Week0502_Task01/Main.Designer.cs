@@ -38,6 +38,7 @@ namespace Week0502_Task01
             this.tbName = new System.Windows.Forms.TextBox();
             this.tbSearch = new System.Windows.Forms.TextBox();
             this.btnShuffle = new System.Windows.Forms.Button();
+            this.btnRemove = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbNames
@@ -46,8 +47,10 @@ namespace Week0502_Task01
             this.lbNames.ItemHeight = 20;
             this.lbNames.Location = new System.Drawing.Point(35, 107);
             this.lbNames.Name = "lbNames";
+            this.lbNames.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.lbNames.Size = new System.Drawing.Size(334, 144);
             this.lbNames.TabIndex = 0;
+            this.lbNames.KeyDown += new System.Windows.Forms.KeyEventHandler(this.lbNames_KeyDown);
             // 
             // lblName
             // 
@@ -89,7 +92,7 @@ namespace Week0502_Task01
             // 
             // btnShowCount
             // 
-            this.btnShowCount.Location = new System.Drawing.Point(504, 47);
+            this.btnShowCount.Location = new System.Drawing.Point(428, 46);
             this.btnShowCount.Name = "btnShowCount";
             this.btnShowCount.Size = new System.Drawing.Size(75, 33);
             this.btnShowCount.TabIndex = 5;
@@ -103,6 +106,7 @@ namespace Week0502_Task01
             this.tbName.Name = "tbName";
             this.tbName.Size = new System.Drawing.Size(214, 26);
             this.tbName.TabIndex = 6;
+            this.tbName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbName_KeyDown);
             // 
             // tbSearch
             // 
@@ -113,7 +117,7 @@ namespace Week0502_Task01
             // 
             // btnShuffle
             // 
-            this.btnShuffle.Location = new System.Drawing.Point(428, 140);
+            this.btnShuffle.Location = new System.Drawing.Point(428, 150);
             this.btnShuffle.Name = "btnShuffle";
             this.btnShuffle.Size = new System.Drawing.Size(75, 31);
             this.btnShuffle.TabIndex = 8;
@@ -121,11 +125,22 @@ namespace Week0502_Task01
             this.btnShuffle.UseVisualStyleBackColor = true;
             this.btnShuffle.Click += new System.EventHandler(this.btnShuffle_Click);
             // 
+            // btnRemove
+            // 
+            this.btnRemove.Location = new System.Drawing.Point(428, 107);
+            this.btnRemove.Name = "btnRemove";
+            this.btnRemove.Size = new System.Drawing.Size(75, 29);
+            this.btnRemove.TabIndex = 9;
+            this.btnRemove.Text = "Sil";
+            this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(615, 394);
+            this.ClientSize = new System.Drawing.Size(537, 380);
+            this.Controls.Add(this.btnRemove);
             this.Controls.Add(this.btnShuffle);
             this.Controls.Add(this.tbSearch);
             this.Controls.Add(this.tbName);
@@ -157,6 +172,7 @@ namespace Week0502_Task01
         private System.Windows.Forms.TextBox tbName;
         private System.Windows.Forms.TextBox tbSearch;
         private System.Windows.Forms.Button btnShuffle;
+        private System.Windows.Forms.Button btnRemove;
     }
 }
 

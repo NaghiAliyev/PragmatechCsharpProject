@@ -19,17 +19,10 @@ namespace Week0502_Task01
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            string name = tbName.Text.Trim();
+            string name = tbName.Text.Trim().ToUpper();
             lbNames.Items.Add(name);
             tbName.Clear();
             tbName.Focus();
-            foreach (var item in Controls)
-            {
-                if (item is TextBox)
-                {
-                    var tool = item as TextBox;
-                }
-            }
         }
 
         private void btnShowCount_Click(object sender, EventArgs e)
@@ -40,7 +33,7 @@ namespace Week0502_Task01
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            string sName = tbSearch.Text.Trim();
+            string sName = tbSearch.Text.Trim().ToUpper();
             bool f = false;
             foreach (string item in lbNames.Items)
             {
@@ -86,6 +79,32 @@ namespace Week0502_Task01
             for (int i = 0; i < count; i++)
             {
                 lbNames.Items.Add(names[randomIndexes[i]]);
+            }
+        }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            int count = lbNames.SelectedItems.Count;
+            for (int i = 0; i < count; i++)
+            {
+                lbNames.Items.Remove(lbNames.SelectedItems[0]);
+            }
+
+        }
+
+        private void tbName_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnAdd_Click(sender, e);
+            }
+        }
+
+        private void lbNames_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Delete)
+            {
+                btnRemove_Click(sender, e);
             }
         }
     }
