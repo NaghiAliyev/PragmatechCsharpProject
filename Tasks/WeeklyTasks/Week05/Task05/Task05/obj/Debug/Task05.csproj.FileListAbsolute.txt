@@ -1,0 +1,10 @@
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Task05\Task05\bin\Debug\Task05.exe.config
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Task05\Task05\bin\Debug\Task05.exe
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Task05\Task05\bin\Debug\Task05.pdb
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Task05\Task05\obj\Debug\Task05.csproj.AssemblyReference.cache
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Task05\Task05\obj\Debug\Task05.Main.resources
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Task05\Task05\obj\Debug\Task05.Properties.Resources.resources
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Task05\Task05\obj\Debug\Task05.csproj.GenerateResource.cache
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Task05\Task05\obj\Debug\Task05.csproj.CoreCompileInputs.cache
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Task05\Task05\obj\Debug\Task05.exe
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week05\Task05\Task05\obj\Debug\Task05.pdb
