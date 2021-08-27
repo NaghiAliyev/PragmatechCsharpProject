@@ -1,0 +1,16 @@
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week12\FileIOOperations\FileIOOperations\bin\Debug\net5.0\FileIOOperations.exe
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week12\FileIOOperations\FileIOOperations\bin\Debug\net5.0\FileIOOperations.deps.json
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week12\FileIOOperations\FileIOOperations\bin\Debug\net5.0\FileIOOperations.runtimeconfig.json
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week12\FileIOOperations\FileIOOperations\bin\Debug\net5.0\FileIOOperations.runtimeconfig.dev.json
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week12\FileIOOperations\FileIOOperations\bin\Debug\net5.0\FileIOOperations.dll
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week12\FileIOOperations\FileIOOperations\bin\Debug\net5.0\ref\FileIOOperations.dll
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week12\FileIOOperations\FileIOOperations\bin\Debug\net5.0\FileIOOperations.pdb
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week12\FileIOOperations\FileIOOperations\obj\Debug\net5.0\FileIOOperations.csproj.AssemblyReference.cache
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week12\FileIOOperations\FileIOOperations\obj\Debug\net5.0\FileIOOperations.GeneratedMSBuildEditorConfig.editorconfig
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week12\FileIOOperations\FileIOOperations\obj\Debug\net5.0\FileIOOperations.AssemblyInfoInputs.cache
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week12\FileIOOperations\FileIOOperations\obj\Debug\net5.0\FileIOOperations.AssemblyInfo.cs
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week12\FileIOOperations\FileIOOperations\obj\Debug\net5.0\FileIOOperations.csproj.CoreCompileInputs.cache
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week12\FileIOOperations\FileIOOperations\obj\Debug\net5.0\FileIOOperations.dll
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week12\FileIOOperations\FileIOOperations\obj\Debug\net5.0\ref\FileIOOperations.dll
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week12\FileIOOperations\FileIOOperations\obj\Debug\net5.0\FileIOOperations.pdb
+D:\Education\PragmaTech\C#\PragmatechCsharpProject\Tasks\WeeklyTasks\Week12\FileIOOperations\FileIOOperations\obj\Debug\net5.0\FileIOOperations.genruntimeconfig.cache
